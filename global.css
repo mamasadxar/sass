@@ -94,6 +94,13 @@ header .container .headerflex h1 {
   line-height: normal;
   margin-bottom: 27px;
 }
+.s1 .container .cardsflex {
+  display: flex;
+  justify-content: space-between;
+}
+.s1 .container .cardsflex .card1 {
+  display: inline-block;
+}
 .s1 .container .cardsflex .card1 .cardimg {
   position: absolute;
   z-index: 0;
@@ -119,7 +126,6 @@ header .container .headerflex h1 {
   display: inline-block;
   border-radius: 0px 0px 5px 5px;
   background: #FFF;
-  padding-left: 37px;
 }
 .s1 .container .cardsflex .card1 .cardunder .cardunder1 {
   color: #8A8787;
@@ -131,6 +137,34 @@ header .container .headerflex h1 {
   display: inline-block;
   margin-top: 68px;
   margin-bottom: 11px;
+  margin-left: 37px;
+  margin-right: 89px;
+}
+.s1 .container .cardsflex .card1 .cardunder .cardunder21 {
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  margin-top: 68px;
+  margin-bottom: 11px;
+  margin-left: 37px;
+  margin-right: 120px;
+}
+.s1 .container .cardsflex .card1 .cardunder .cardunder31 {
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  margin-top: 68px;
+  margin-bottom: 11px;
+  margin-left: 37px;
+  margin-right: 111px;
 }
 .s1 .container .cardsflex .card1 .cardunder .cardunder2 {
   color: #8A8787;
@@ -141,4 +175,7 @@ header .container .headerflex h1 {
   line-height: normal;
   display: inline-block;
   vertical-align: text-top;
+}
+.s1 .container .cardsflex .card1 .cardunder .clock {
+  margin-left: 37px;
 }/*# sourceMappingURL=global.css.map */

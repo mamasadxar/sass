@@ -41,7 +41,10 @@ header {
             margin-bottom: 27px;
         }
         .cardsflex {
+            display: flex;
+            justify-content: space-between;
             .card1 {
+                display: inline-block;
                 .cardimg {
                     position: absolute;
                     z-index: 0;
@@ -67,7 +70,6 @@ header {
                     display: inline-block;
                     border-radius: 0px 0px 5px 5px;
                     background: #FFF;
-                    padding-left: 37px;
 
                     .cardunder1 {
                         color: #8A8787;
@@ -79,6 +81,34 @@ header {
                         display: inline-block;
                         margin-top: 68px;
                         margin-bottom: 11px;
+                        margin-left: 37px;
+                        margin-right: 89px;
+                    }
+                    .cardunder21 {
+                        color: #8A8787;
+                        font-family: Roboto;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        display: inline-block;
+                        margin-top: 68px;
+                        margin-bottom: 11px;
+                        margin-left: 37px;
+                        margin-right: 120px;
+                    }
+                    .cardunder31 {
+                        color: #8A8787;
+                        font-family: Roboto;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        display: inline-block;
+                        margin-top: 68px;
+                        margin-bottom: 11px;
+                        margin-left: 37px;
+                        margin-right: 111px;
                     }
                     .cardunder2 {
                         color: #8A8787;
@@ -89,6 +119,9 @@ header {
                         line-height: normal;
                         display: inline-block;
                         vertical-align: text-top;
+                    }
+                    .clock {
+                        margin-left: 37px;
                     }
                 }
             }
