@@ -1,0 +1,28 @@
+.container {
+    max-width: 1166px;
+    width: 100%;
+    margin: 0 auto;
+}
+.headerflex {
+    display: flex;
+    max-width: 351px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+    margin-bottom: 33px;
+}
+header {
+    .container{
+        .headerflex {
+            h1 {
+                color: #000;
+                font-family: Roboto;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}
